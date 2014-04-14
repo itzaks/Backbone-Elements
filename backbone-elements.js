@@ -53,6 +53,7 @@
           this.events = this.mapEvents(this.events);
           this.refreshElements();
           initialize.apply(this, arguments);
+          this.delegateEvents();
         },
 
         /**
